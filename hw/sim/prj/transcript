@@ -1,0 +1,1682 @@
+# //  ModelSim SE-64 10.1c Jul 27 2012 Linux 3.2.0-4-amd64
+# //
+# //  Copyright 1991-2012 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# do lrm.do 
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module bsw
+# -- Compiling module core
+# 
+# Top level modules:
+# 	bsw
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module fifo
+# -- Compiling module max0th
+# -- Compiling module max2th
+# -- Compiling module max4th
+# 
+# Top level modules:
+# 	fifo
+# 	max0th
+# 	max2th
+# 	max4th
+# vsim -novopt testbench 
+# Refreshing /home/debian/Workspace/acceleration-lrm/hw/sim/prj/work.testbench
+# Loading work.testbench
+# Refreshing /home/debian/Workspace/acceleration-lrm/hw/sim/prj/work.fifo
+# Loading work.fifo
+# Refreshing /home/debian/Workspace/acceleration-lrm/hw/sim/prj/work.bsw
+# Loading work.bsw
+# Refreshing /home/debian/Workspace/acceleration-lrm/hw/sim/prj/work.core
+# Loading work.core
+# Refreshing /home/debian/Workspace/acceleration-lrm/hw/sim/prj/work.max4th
+# Loading work.max4th
+do bsw.do
+# ** Error: invalid command name "23"
+# Error in macro ./bsw.do line 19
+# invalid command name "23"
+#     while executing
+# "23"
+#     invoked from within
+# "add wave -decimal /lrm/sw[23]/*"
+run 7400
+# fifo instants: lrm-fill, cases: ../../../data/gene/seql1.txt
+# fifo instants: lrm-fill, cases: ../../../data/gene/seql2.txt
+# fifo instants: lrm-score, cases: null
+do lrm.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module bsw
+# -- Compiling module core
+# 
+# Top level modules:
+# 	bsw
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module fifo
+# -- Compiling module max0th
+# -- Compiling module max2th
+# -- Compiling module max4th
+# 
+# Top level modules:
+# 	fifo
+# 	max0th
+# 	max2th
+# 	max4th
+# vsim -novopt testbench 
+# Refreshing /home/debian/Workspace/acceleration-lrm/hw/sim/prj/work.testbench
+# Loading work.testbench
+# Refreshing /home/debian/Workspace/acceleration-lrm/hw/sim/prj/work.fifo
+# Loading work.fifo
+# Refreshing /home/debian/Workspace/acceleration-lrm/hw/sim/prj/work.bsw
+# Loading work.bsw
+# Refreshing /home/debian/Workspace/acceleration-lrm/hw/sim/prj/work.core
+# Loading work.core
+# Refreshing /home/debian/Workspace/acceleration-lrm/hw/sim/prj/work.max4th
+# Loading work.max4th
+do bsw.do
+run 7400
+# fifo instants: lrm-fill, cases: ../../../data/gene/seql1.txt
+# fifo instants: lrm-fill, cases: ../../../data/gene/seql2.txt
+# fifo instants: lrm-score, cases: null
+do lrm.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module bsw
+# ** Error: ../src/bsw.v(69): near "<=": syntax error, unexpected <=, expecting IDENTIFIER or TYPE_IDENTIFIER
+# -- Compiling module core
+# ** Error: /local/debian7/modelsim10.1c/modeltech/linux_x86_64/vlog failed.
+# Error in macro ./lrm.do line 2
+# /local/debian7/modelsim10.1c/modeltech/linux_x86_64/vlog failed.
+#     while executing
+# "vlog +acc ../src/bsw.v"
+do lrm.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module bsw
+# -- Compiling module core
+# 
+# Top level modules:
+# 	bsw
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module fifo
+# -- Compiling module max0th
+# -- Compiling module max2th
+# -- Compiling module max4th
+# 
+# Top level modules:
+# 	fifo
+# 	max0th
+# 	max2th
+# 	max4th
+# vsim -novopt testbench 
+# Refreshing /home/debian/Workspace/acceleration-lrm/hw/sim/prj/work.testbench
+# Loading work.testbench
+# Refreshing /home/debian/Workspace/acceleration-lrm/hw/sim/prj/work.fifo
+# Loading work.fifo
+# Refreshing /home/debian/Workspace/acceleration-lrm/hw/sim/prj/work.bsw
+# Loading work.bsw
+# Refreshing /home/debian/Workspace/acceleration-lrm/hw/sim/prj/work.core
+# Loading work.core
+# Refreshing /home/debian/Workspace/acceleration-lrm/hw/sim/prj/work.max4th
+# Loading work.max4th
+do lrm.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module bsw
+# ** Error: ../src/bsw.v(69): near "[": syntax error, unexpected '['
+# -- Compiling module core
+# ** Error: /local/debian7/modelsim10.1c/modeltech/linux_x86_64/vlog failed.
+# Error in macro ./lrm.do line 2
+# /local/debian7/modelsim10.1c/modeltech/linux_x86_64/vlog failed.
+#     while executing
+# "vlog +acc ../src/bsw.v"
+do lrm.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module bsw
+# -- Compiling module core
+# 
+# Top level modules:
+# 	bsw
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module fifo
+# -- Compiling module max0th
+# -- Compiling module max2th
+# -- Compiling module max4th
+# 
+# Top level modules:
+# 	fifo
+# 	max0th
+# 	max2th
+# 	max4th
+# vsim -novopt testbench 
+# Refreshing /home/debian/Workspace/acceleration-lrm/hw/sim/prj/work.testbench
+# Loading work.testbench
+# Refreshing /home/debian/Workspace/acceleration-lrm/hw/sim/prj/work.fifo
+# Loading work.fifo
+# Refreshing /home/debian/Workspace/acceleration-lrm/hw/sim/prj/work.bsw
+# Loading work.bsw
+# Refreshing /home/debian/Workspace/acceleration-lrm/hw/sim/prj/work.core
+# Loading work.core
+# Refreshing /home/debian/Workspace/acceleration-lrm/hw/sim/prj/work.max4th
+# Loading work.max4th
+do lrm.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module bsw
+# -- Compiling module core
+# 
+# Top level modules:
+# 	bsw
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module fifo
+# -- Compiling module max0th
+# -- Compiling module max2th
+# -- Compiling module max4th
+# 
+# Top level modules:
+# 	fifo
+# 	max0th
+# 	max2th
+# 	max4th
+# vsim -novopt testbench 
+# Refreshing /home/debian/Workspace/acceleration-lrm/hw/sim/prj/work.testbench
+# Loading work.testbench
+# Refreshing /home/debian/Workspace/acceleration-lrm/hw/sim/prj/work.fifo
+# Loading work.fifo
+# Refreshing /home/debian/Workspace/acceleration-lrm/hw/sim/prj/work.bsw
+# Loading work.bsw
+# Refreshing /home/debian/Workspace/acceleration-lrm/hw/sim/prj/work.core
+# Loading work.core
+# Refreshing /home/debian/Workspace/acceleration-lrm/hw/sim/prj/work.max4th
+# Loading work.max4th
+do lrm.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module bsw
+# -- Compiling module core
+# 
+# Top level modules:
+# 	bsw
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module fifo
+# -- Compiling module max0th
+# -- Compiling module max2th
+# -- Compiling module max4th
+# 
+# Top level modules:
+# 	fifo
+# 	max0th
+# 	max2th
+# 	max4th
+# vsim -novopt testbench 
+# Refreshing /home/debian/Workspace/acceleration-lrm/hw/sim/prj/work.testbench
+# Loading work.testbench
+# Refreshing /home/debian/Workspace/acceleration-lrm/hw/sim/prj/work.fifo
+# Loading work.fifo
+# Refreshing /home/debian/Workspace/acceleration-lrm/hw/sim/prj/work.bsw
+# Loading work.bsw
+# Refreshing /home/debian/Workspace/acceleration-lrm/hw/sim/prj/work.core
+# Loading work.core
+# Refreshing /home/debian/Workspace/acceleration-lrm/hw/sim/prj/work.max4th
+# Loading work.max4th
+do bsw.do
+run 7400
+# fifo instants: lrm-fill, cases: ../../../data/gene/seql1.txt
+# fifo instants: lrm-fill, cases: ../../../data/gene/seql2.txt
+# fifo instants: lrm-score, cases: null
+run 50000
+do lrm.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module bsw
+# -- Compiling module core
+# 
+# Top level modules:
+# 	bsw
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module fifo
+# -- Compiling module max0th
+# -- Compiling module max2th
+# -- Compiling module max4th
+# 
+# Top level modules:
+# 	fifo
+# 	max0th
+# 	max2th
+# 	max4th
+# vsim -novopt testbench 
+# Refreshing /home/debian/Workspace/acceleration-lrm/hw/sim/prj/work.testbench
+# Loading work.testbench
+# Refreshing /home/debian/Workspace/acceleration-lrm/hw/sim/prj/work.fifo
+# Loading work.fifo
+# Refreshing /home/debian/Workspace/acceleration-lrm/hw/sim/prj/work.bsw
+# Loading work.bsw
+# Refreshing /home/debian/Workspace/acceleration-lrm/hw/sim/prj/work.core
+# Loading work.core
+# Refreshing /home/debian/Workspace/acceleration-lrm/hw/sim/prj/work.max4th
+# Loading work.max4th
+do bsw.do
+run 50000
+# fifo instants: lrm-fill, cases: ../../../data/gene/seql1.txt
+# fifo instants: lrm-fill, cases: ../../../data/gene/seql2.txt
+# fifo instants: lrm-score, cases: null
+# 00892 00963 00964
+# 00892 01927 00023
+do lrm.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module bsw
+# -- Compiling module core
+# 
+# Top level modules:
+# 	bsw
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module fifo
+# -- Compiling module max0th
+# -- Compiling module max2th
+# -- Compiling module max4th
+# 
+# Top level modules:
+# 	fifo
+# 	max0th
+# 	max2th
+# 	max4th
+# vsim -novopt testbench 
+# Refreshing /home/debian/Workspace/acceleration-lrm/hw/sim/prj/work.testbench
+# Loading work.testbench
+# Refreshing /home/debian/Workspace/acceleration-lrm/hw/sim/prj/work.fifo
+# Loading work.fifo
+# Refreshing /home/debian/Workspace/acceleration-lrm/hw/sim/prj/work.bsw
+# Loading work.bsw
+# Refreshing /home/debian/Workspace/acceleration-lrm/hw/sim/prj/work.core
+# Loading work.core
+# Refreshing /home/debian/Workspace/acceleration-lrm/hw/sim/prj/work.max4th
+# Loading work.max4th
+do bsw.do
+run 50000
+# fifo instants: lrm-fill, cases: ../../../data/gene/seql1.txt
+# fifo instants: lrm-fill, cases: ../../../data/gene/seql2.txt
+# fifo instants: lrm-score, cases: null
+# 00893 00963 00964
+# 00893 01927 00023
+do lrm.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module bsw
+# -- Compiling module core
+# 
+# Top level modules:
+# 	bsw
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module fifo
+# -- Compiling module max0th
+# -- Compiling module max2th
+# -- Compiling module max4th
+# 
+# Top level modules:
+# 	fifo
+# 	max0th
+# 	max2th
+# 	max4th
+# vsim -novopt testbench 
+# Refreshing /home/debian/Workspace/acceleration-lrm/hw/sim/prj/work.testbench
+# Loading work.testbench
+# Refreshing /home/debian/Workspace/acceleration-lrm/hw/sim/prj/work.fifo
+# Loading work.fifo
+# Refreshing /home/debian/Workspace/acceleration-lrm/hw/sim/prj/work.bsw
+# Loading work.bsw
+# Refreshing /home/debian/Workspace/acceleration-lrm/hw/sim/prj/work.core
+# Loading work.core
+# Refreshing /home/debian/Workspace/acceleration-lrm/hw/sim/prj/work.max4th
+# Loading work.max4th
+do bsw.do
+run 50000
+# fifo instants: lrm-fill, cases: ../../../data/gene/seql1.txt
+# fifo instants: lrm-fill, cases: ../../../data/gene/seql2.txt
+# fifo instants: lrm-score, cases: null
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+# 0000x 0000x 0000x
+# 0000x 0000x 0000X
+do lrm.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module bsw
+# -- Compiling module core
+# 
+# Top level modules:
+# 	bsw
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module fifo
+# -- Compiling module max0th
+# -- Compiling module max2th
+# -- Compiling module max4th
+# 
+# Top level modules:
+# 	fifo
+# 	max0th
+# 	max2th
+# 	max4th
+# vsim -novopt testbench 
+# Refreshing /home/debian/Workspace/acceleration-lrm/hw/sim/prj/work.testbench
+# Loading work.testbench
+# Refreshing /home/debian/Workspace/acceleration-lrm/hw/sim/prj/work.fifo
+# Loading work.fifo
+# Refreshing /home/debian/Workspace/acceleration-lrm/hw/sim/prj/work.bsw
+# Loading work.bsw
+# Refreshing /home/debian/Workspace/acceleration-lrm/hw/sim/prj/work.core
+# Loading work.core
+# Refreshing /home/debian/Workspace/acceleration-lrm/hw/sim/prj/work.max4th
+# Loading work.max4th
+do bsw.do
+run 50000
+# fifo instants: lrm-fill, cases: ../../../data/gene/seql1.txt
+# fifo instants: lrm-fill, cases: ../../../data/gene/seql2.txt
+# fifo instants: lrm-score, cases: null
+# 00888 00963 00964
+# 00888 01927 00023
+do lrm.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module bsw
+# -- Compiling module core
+# 
+# Top level modules:
+# 	bsw
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module fifo
+# -- Compiling module max0th
+# -- Compiling module max2th
+# -- Compiling module max4th
+# 
+# Top level modules:
+# 	fifo
+# 	max0th
+# 	max2th
+# 	max4th
+# vsim -novopt testbench 
+# Refreshing /home/debian/Workspace/acceleration-lrm/hw/sim/prj/work.testbench
+# Loading work.testbench
+# Refreshing /home/debian/Workspace/acceleration-lrm/hw/sim/prj/work.fifo
+# Loading work.fifo
+# Refreshing /home/debian/Workspace/acceleration-lrm/hw/sim/prj/work.bsw
+# Loading work.bsw
+# Refreshing /home/debian/Workspace/acceleration-lrm/hw/sim/prj/work.core
+# Loading work.core
+# Refreshing /home/debian/Workspace/acceleration-lrm/hw/sim/prj/work.max4th
+# Loading work.max4th
+do bsw.do
+run 50000
+# fifo instants: lrm-fill, cases: ../../../data/gene/seql1.txt
+# fifo instants: lrm-fill, cases: ../../../data/gene/seql2.txt
+# fifo instants: lrm-score, cases: null
+# 00887 00962 00963
+# 00887 01925 00023
+add wave /lrm/M
+do lrm.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module bsw
+# -- Compiling module core
+# 
+# Top level modules:
+# 	bsw
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module fifo
+# -- Compiling module max0th
+# -- Compiling module max2th
+# -- Compiling module max4th
+# 
+# Top level modules:
+# 	fifo
+# 	max0th
+# 	max2th
+# 	max4th
+# vsim -novopt testbench 
+# Refreshing /home/debian/Workspace/acceleration-lrm/hw/sim/prj/work.testbench
+# Loading work.testbench
+# Refreshing /home/debian/Workspace/acceleration-lrm/hw/sim/prj/work.fifo
+# Loading work.fifo
+# Refreshing /home/debian/Workspace/acceleration-lrm/hw/sim/prj/work.bsw
+# Loading work.bsw
+# Refreshing /home/debian/Workspace/acceleration-lrm/hw/sim/prj/work.core
+# Loading work.core
+# Refreshing /home/debian/Workspace/acceleration-lrm/hw/sim/prj/work.max4th
+# Loading work.max4th
+do bsw.do
+run 50000
+# fifo instants: lrm-fill, cases: ../../../data/gene/seql1.txt
+# fifo instants: lrm-fill, cases: ../../../data/gene/seql2.txt
+# fifo instants: lrm-score, cases: null
+# 00892 00961 00964
+# 00892 01925 00024
+do lrm.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module bsw
+# -- Compiling module core
+# 
+# Top level modules:
+# 	bsw
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module fifo
+# -- Compiling module max0th
+# -- Compiling module max2th
+# -- Compiling module max4th
+# 
+# Top level modules:
+# 	fifo
+# 	max0th
+# 	max2th
+# 	max4th
+# vsim -novopt testbench 
+# Refreshing /home/debian/Workspace/acceleration-lrm/hw/sim/prj/work.testbench
+# Loading work.testbench
+# Refreshing /home/debian/Workspace/acceleration-lrm/hw/sim/prj/work.fifo
+# Loading work.fifo
+# Refreshing /home/debian/Workspace/acceleration-lrm/hw/sim/prj/work.bsw
+# Loading work.bsw
+# Refreshing /home/debian/Workspace/acceleration-lrm/hw/sim/prj/work.core
+# Loading work.core
+# Refreshing /home/debian/Workspace/acceleration-lrm/hw/sim/prj/work.max4th
+# Loading work.max4th
+do bsw.do
+run 50000
+# fifo instants: lrm-fill, cases: ../../../data/gene/seql1.txt
+# fifo instants: lrm-fill, cases: ../../../data/gene/seql2.txt
+# fifo instants: lrm-score, cases: null
+# 00892 00962 00963
+# 00892 01925 00024
+run 50000
+# 00216 00229 00230
+# 00216 00459 00024
+# 00216 00229 00230
+# 00216 00459 00024
+# 00042 00062 00063
+# 00042 00125 00024
+# 00042 00062 00063
+# 00042 00125 00024
+# Causality operation skipped due to absense of debug database file
+add wave /lrm/D
+add wave /lrm/oM
+do lrm.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module bsw
+# -- Compiling module core
+# 
+# Top level modules:
+# 	bsw
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module fifo
+# -- Compiling module max0th
+# -- Compiling module max2th
+# -- Compiling module max4th
+# 
+# Top level modules:
+# 	fifo
+# 	max0th
+# 	max2th
+# 	max4th
+# vsim -novopt testbench 
+# Refreshing /home/debian/Workspace/acceleration-lrm/hw/sim/prj/work.testbench
+# Loading work.testbench
+# Refreshing /home/debian/Workspace/acceleration-lrm/hw/sim/prj/work.fifo
+# Loading work.fifo
+# Refreshing /home/debian/Workspace/acceleration-lrm/hw/sim/prj/work.bsw
+# Loading work.bsw
+# Refreshing /home/debian/Workspace/acceleration-lrm/hw/sim/prj/work.core
+# Loading work.core
+# Refreshing /home/debian/Workspace/acceleration-lrm/hw/sim/prj/work.max4th
+# Loading work.max4th
+do bsw.do
+run 50000
+# fifo instants: lrm-fill, cases: ../../../data/gene/seql1.txt
+# fifo instants: lrm-fill, cases: ../../../data/gene/seql2.txt
+# fifo instants: lrm-score, cases: null
+# 00893 00963 00964
+# 00893 01927 00024
+do lrm.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module bsw
+# -- Compiling module core
+# 
+# Top level modules:
+# 	bsw
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module fifo
+# -- Compiling module max0th
+# -- Compiling module max2th
+# -- Compiling module max4th
+# 
+# Top level modules:
+# 	fifo
+# 	max0th
+# 	max2th
+# 	max4th
+# vsim -novopt testbench 
+# Refreshing /home/debian/Workspace/acceleration-lrm/hw/sim/prj/work.testbench
+# Loading work.testbench
+# Refreshing /home/debian/Workspace/acceleration-lrm/hw/sim/prj/work.fifo
+# Loading work.fifo
+# Refreshing /home/debian/Workspace/acceleration-lrm/hw/sim/prj/work.bsw
+# Loading work.bsw
+# Refreshing /home/debian/Workspace/acceleration-lrm/hw/sim/prj/work.core
+# Loading work.core
+# Refreshing /home/debian/Workspace/acceleration-lrm/hw/sim/prj/work.max4th
+# Loading work.max4th
+do bsw.do
+run 50000
+# fifo instants: lrm-fill, cases: ../../../data/gene/seql1.txt
+# fifo instants: lrm-fill, cases: ../../../data/gene/seql2.txt
+# fifo instants: lrm-score, cases: null
+# 00888 00964 00963
+# 00888 01927 00023
+do lrm.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module bsw
+# -- Compiling module core
+# 
+# Top level modules:
+# 	bsw
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module fifo
+# -- Compiling module max0th
+# -- Compiling module max2th
+# -- Compiling module max4th
+# 
+# Top level modules:
+# 	fifo
+# 	max0th
+# 	max2th
+# 	max4th
+# vsim -novopt testbench 
+# Refreshing /home/debian/Workspace/acceleration-lrm/hw/sim/prj/work.testbench
+# Loading work.testbench
+# Refreshing /home/debian/Workspace/acceleration-lrm/hw/sim/prj/work.fifo
+# Loading work.fifo
+# Refreshing /home/debian/Workspace/acceleration-lrm/hw/sim/prj/work.bsw
+# Loading work.bsw
+# Refreshing /home/debian/Workspace/acceleration-lrm/hw/sim/prj/work.core
+# Loading work.core
+# Refreshing /home/debian/Workspace/acceleration-lrm/hw/sim/prj/work.max4th
+# Loading work.max4th
+do bsw.do
+run 50000
+# fifo instants: lrm-fill, cases: ../../../data/gene/seql1.txt
+# fifo instants: lrm-fill, cases: ../../../data/gene/seql2.txt
+# fifo instants: lrm-score, cases: null
+# 00893 00963 00964
+# 00893 01927 00024
+do lrm.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module bsw
+# -- Compiling module core
+# 
+# Top level modules:
+# 	bsw
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module fifo
+# -- Compiling module max0th
+# -- Compiling module max2th
+# -- Compiling module max4th
+# 
+# Top level modules:
+# 	fifo
+# 	max0th
+# 	max2th
+# 	max4th
+# vsim -novopt testbench 
+# Refreshing /home/debian/Workspace/acceleration-lrm/hw/sim/prj/work.testbench
+# Loading work.testbench
+# Refreshing /home/debian/Workspace/acceleration-lrm/hw/sim/prj/work.fifo
+# Loading work.fifo
+# Refreshing /home/debian/Workspace/acceleration-lrm/hw/sim/prj/work.bsw
+# Loading work.bsw
+# Refreshing /home/debian/Workspace/acceleration-lrm/hw/sim/prj/work.core
+# Loading work.core
+# Refreshing /home/debian/Workspace/acceleration-lrm/hw/sim/prj/work.max4th
+# Loading work.max4th
+do bsw.do
+run 50000
+# fifo instants: lrm-fill, cases: ../../../data/gene/seql1.txt
+# fifo instants: lrm-fill, cases: ../../../data/gene/seql2.txt
+# fifo instants: lrm-score, cases: null
+# 00893 00963 00964
+# 00893 01927 00024
+do lrm.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module bsw
+# -- Compiling module core
+# 
+# Top level modules:
+# 	bsw
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module fifo
+# -- Compiling module max0th
+# -- Compiling module max2th
+# -- Compiling module max4th
+# 
+# Top level modules:
+# 	fifo
+# 	max0th
+# 	max2th
+# 	max4th
+# vsim -novopt testbench 
+# Refreshing /home/debian/Workspace/acceleration-lrm/hw/sim/prj/work.testbench
+# Loading work.testbench
+# Refreshing /home/debian/Workspace/acceleration-lrm/hw/sim/prj/work.fifo
+# Loading work.fifo
+# Refreshing /home/debian/Workspace/acceleration-lrm/hw/sim/prj/work.bsw
+# Loading work.bsw
+# Refreshing /home/debian/Workspace/acceleration-lrm/hw/sim/prj/work.core
+# Loading work.core
+# Refreshing /home/debian/Workspace/acceleration-lrm/hw/sim/prj/work.max4th
+# Loading work.max4th
+do bsw.do
+run 50000
+# fifo instants: lrm-fill, cases: ../../../data/gene/seql1.txt
+# fifo instants: lrm-fill, cases: ../../../data/gene/seql2.txt
+# fifo instants: lrm-score, cases: null
+# 00893 00963 00964
+# 00893 01927 00024
+run 30000
+run 20000
+# 00883 00961 00962
+# 00883 01923 00024
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+#     while executing
+# "set grid $vsimPriv($grid:grid)"
+#     (procedure "ginfo" line 10)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 7)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+#     while executing
+# "set grid $vsimPriv($grid:grid)"
+#     (procedure "ginfo" line 10)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 7)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+#     while executing
+# "set grid $vsimPriv($grid:grid)"
+#     (procedure "ginfo" line 10)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 7)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+#     while executing
+# "set grid $vsimPriv($grid:grid)"
+#     (procedure "ginfo" line 10)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 7)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+#     while executing
+# "set grid $vsimPriv($grid:grid)"
+#     (procedure "ginfo" line 10)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 7)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+#     while executing
+# "set grid $vsimPriv($grid:grid)"
+#     (procedure "ginfo" line 10)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 7)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+#     while executing
+# "set grid $vsimPriv($grid:grid)"
+#     (procedure "ginfo" line 10)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 7)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+#     while executing
+# "set grid $vsimPriv($grid:grid)"
+#     (procedure "ginfo" line 10)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 7)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+#     while executing
+# "set grid $vsimPriv($grid:grid)"
+#     (procedure "ginfo" line 10)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 7)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+#     while executing
+# "set grid $vsimPriv($grid:grid)"
+#     (procedure "ginfo" line 10)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 7)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+#     while executing
+# "set grid $vsimPriv($grid:grid)"
+#     (procedure "ginfo" line 10)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 7)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+#     while executing
+# "set grid $vsimPriv($grid:grid)"
+#     (procedure "ginfo" line 10)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 7)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+#     while executing
+# "set grid $vsimPriv($grid:grid)"
+#     (procedure "ginfo" line 10)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 7)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+#     while executing
+# "set grid $vsimPriv($grid:grid)"
+#     (procedure "ginfo" line 10)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 7)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+#     while executing
+# "set grid $vsimPriv($grid:grid)"
+#     (procedure "ginfo" line 10)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 7)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+#     while executing
+# "set grid $vsimPriv($grid:grid)"
+#     (procedure "ginfo" line 10)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 7)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+#     while executing
+# "set grid $vsimPriv($grid:grid)"
+#     (procedure "ginfo" line 10)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 7)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+#     while executing
+# "set grid $vsimPriv($grid:grid)"
+#     (procedure "ginfo" line 10)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 7)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+#     while executing
+# "set grid $vsimPriv($grid:grid)"
+#     (procedure "ginfo" line 10)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 7)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+#     while executing
+# "set grid $vsimPriv($grid:grid)"
+#     (procedure "ginfo" line 10)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 7)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+#     while executing
+# "set grid $vsimPriv($grid:grid)"
+#     (procedure "ginfo" line 10)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 7)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+#     while executing
+# "set grid $vsimPriv($grid:grid)"
+#     (procedure "ginfo" line 10)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 7)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+#     while executing
+# "set grid $vsimPriv($grid:grid)"
+#     (procedure "ginfo" line 10)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 7)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+#     while executing
+# "set grid $vsimPriv($grid:grid)"
+#     (procedure "ginfo" line 10)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 7)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+#     while executing
+# "set grid $vsimPriv($grid:grid)"
+#     (procedure "ginfo" line 10)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 7)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+#     while executing
+# "set grid $vsimPriv($grid:grid)"
+#     (procedure "ginfo" line 10)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 7)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+do bsw.do
+do lrm.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module bsw
+# -- Compiling module core
+# 
+# Top level modules:
+# 	bsw
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module fifo
+# -- Compiling module max0th
+# -- Compiling module max2th
+# -- Compiling module max4th
+# 
+# Top level modules:
+# 	fifo
+# 	max0th
+# 	max2th
+# 	max4th
+# vsim -novopt testbench 
+# **** Error: RestartPrepQ cmd: Wave::RestartPrep .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        invalid command name ".main_pane.dataflow.interior.cs.body.pw.wf.top.tree"
+# invalid command name ".main_pane.dataflow.interior.cs.body.pw.wf.top.tree"
+#     while executing
+# "$treeObj restartprepare $namespace"
+#     (procedure "Wave::RestartPrep" line 2)
+#     invoked from within
+# "Wave::RestartPrep .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# Refreshing /home/debian/Workspace/acceleration-lrm/hw/sim/prj/work.testbench
+# Loading work.testbench
+# Refreshing /home/debian/Workspace/acceleration-lrm/hw/sim/prj/work.fifo
+# Loading work.fifo
+# Refreshing /home/debian/Workspace/acceleration-lrm/hw/sim/prj/work.bsw
+# Loading work.bsw
+# Refreshing /home/debian/Workspace/acceleration-lrm/hw/sim/prj/work.core
+# Loading work.core
+# Refreshing /home/debian/Workspace/acceleration-lrm/hw/sim/prj/work.max4th
+# Loading work.max4th
+# **** Error: RestartQ cmd: winRestart .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        Window .main_pane.dataflow.interior.cs.body.pw.wf.top.tree does not exist
+# Window .main_pane.dataflow.interior.cs.body.pw.wf.top.tree does not exist
+#     while executing
+# "winRestart .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: ConfigureQ cmd: Wave::ConfigQ .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:trees)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:trees)": no such element in array
+#     while executing
+# "foreach tree $vsimPriv($winname:trees) {
+# 	    eval $tree $args
+# 	}"
+#     (procedure "notify_trees" line 3)
+#     invoked from within
+# "notify_trees $winname update"
+#     (procedure "Wave::ConfigQ" line 5)
+#     invoked from within
+# "Wave::ConfigQ .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+#     while executing
+# "set grid $vsimPriv($grid:grid)"
+#     (procedure "ginfo" line 10)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 7)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: ConfigureQ cmd: Wave::ConfigQ .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:trees)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:trees)": no such element in array
+#     while executing
+# "foreach tree $vsimPriv($winname:trees) {
+# 	    eval $tree $args
+# 	}"
+#     (procedure "notify_trees" line 3)
+#     invoked from within
+# "notify_trees $winname update"
+#     (procedure "Wave::ConfigQ" line 5)
+#     invoked from within
+# "Wave::ConfigQ .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+run 100000
+# fifo instants: lrm-fill, cases: ../../../data/gene/seql1.txt
+# fifo instants: lrm-fill, cases: ../../../data/gene/seql2.txt
+# fifo instants: lrm-score, cases: null
+# 00893 00962 00964
+# 00893 01927 00024
+# 00883 00960 00962
+# 00883 01923 00024
+# **** Error: RunQ cmd: Wave::WinUpdate .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        invalid command name ".main_pane.dataflow.interior.cs.body.pw.wf.top.tree"
+# invalid command name ".main_pane.dataflow.interior.cs.body.pw.wf.top.tree"
+#     while executing
+# "$treeObj seetime -percent 95 $Now"
+#     (procedure "Wave::WinUpdate" line 6)
+#     invoked from within
+# "Wave::WinUpdate .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+#     while executing
+# "set grid $vsimPriv($grid:grid)"
+#     (procedure "ginfo" line 10)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 7)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+do lrm.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module bsw
+# -- Compiling module core
+# 
+# Top level modules:
+# 	bsw
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module fifo
+# -- Compiling module max0th
+# -- Compiling module max2th
+# -- Compiling module max4th
+# 
+# Top level modules:
+# 	fifo
+# 	max0th
+# 	max2th
+# 	max4th
+# vsim -novopt testbench 
+# **** Error: RestartPrepQ cmd: Wave::RestartPrep .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        invalid command name ".main_pane.dataflow.interior.cs.body.pw.wf.top.tree"
+# invalid command name ".main_pane.dataflow.interior.cs.body.pw.wf.top.tree"
+#     while executing
+# "$treeObj restartprepare $namespace"
+#     (procedure "Wave::RestartPrep" line 2)
+#     invoked from within
+# "Wave::RestartPrep .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# Refreshing /home/debian/Workspace/acceleration-lrm/hw/sim/prj/work.testbench
+# Loading work.testbench
+# Refreshing /home/debian/Workspace/acceleration-lrm/hw/sim/prj/work.fifo
+# Loading work.fifo
+# Refreshing /home/debian/Workspace/acceleration-lrm/hw/sim/prj/work.bsw
+# Loading work.bsw
+# Refreshing /home/debian/Workspace/acceleration-lrm/hw/sim/prj/work.core
+# Loading work.core
+# Refreshing /home/debian/Workspace/acceleration-lrm/hw/sim/prj/work.max4th
+# Loading work.max4th
+# **** Error: RestartQ cmd: winRestart .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        Window .main_pane.dataflow.interior.cs.body.pw.wf.top.tree does not exist
+# Window .main_pane.dataflow.interior.cs.body.pw.wf.top.tree does not exist
+#     while executing
+# "winRestart .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: ConfigureQ cmd: Wave::ConfigQ .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:trees)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:trees)": no such element in array
+#     while executing
+# "foreach tree $vsimPriv($winname:trees) {
+# 	    eval $tree $args
+# 	}"
+#     (procedure "notify_trees" line 3)
+#     invoked from within
+# "notify_trees $winname update"
+#     (procedure "Wave::ConfigQ" line 5)
+#     invoked from within
+# "Wave::ConfigQ .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+#     while executing
+# "set grid $vsimPriv($grid:grid)"
+#     (procedure "ginfo" line 10)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 7)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: ConfigureQ cmd: Wave::ConfigQ .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:trees)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:trees)": no such element in array
+#     while executing
+# "foreach tree $vsimPriv($winname:trees) {
+# 	    eval $tree $args
+# 	}"
+#     (procedure "notify_trees" line 3)
+#     invoked from within
+# "notify_trees $winname update"
+#     (procedure "Wave::ConfigQ" line 5)
+#     invoked from within
+# "Wave::ConfigQ .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+run 100000
+# fifo instants: lrm-fill, cases: ../../../data/gene/seql1.txt
+# fifo instants: lrm-fill, cases: ../../../data/gene/seql2.txt
+# fifo instants: lrm-score, cases: null
+# 00893 00962 00964
+# 00893 01927 00024
+# 00883 00960 00962
+# 00883 01923 00024
+# **** Error: RunQ cmd: Wave::WinUpdate .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        invalid command name ".main_pane.dataflow.interior.cs.body.pw.wf.top.tree"
+# invalid command name ".main_pane.dataflow.interior.cs.body.pw.wf.top.tree"
+#     while executing
+# "$treeObj seetime -percent 95 $Now"
+#     (procedure "Wave::WinUpdate" line 6)
+#     invoked from within
+# "Wave::WinUpdate .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+#     while executing
+# "set grid $vsimPriv($grid:grid)"
+#     (procedure "ginfo" line 10)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 7)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+run 100000
+# 00087 00247 00245
+# 00087 00493 00022
+# 00627 00699 00699
+# 00627 01399 00023
+# **** Error: RunQ cmd: Wave::WinUpdate .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        invalid command name ".main_pane.dataflow.interior.cs.body.pw.wf.top.tree"
+# invalid command name ".main_pane.dataflow.interior.cs.body.pw.wf.top.tree"
+#     while executing
+# "$treeObj seetime -percent 95 $Now"
+#     (procedure "Wave::WinUpdate" line 6)
+#     invoked from within
+# "Wave::WinUpdate .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+#     while executing
+# "set grid $vsimPriv($grid:grid)"
+#     (procedure "ginfo" line 10)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 7)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
