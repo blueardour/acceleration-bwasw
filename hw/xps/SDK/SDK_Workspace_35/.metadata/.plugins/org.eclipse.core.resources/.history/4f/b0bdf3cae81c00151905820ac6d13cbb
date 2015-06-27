@@ -1,0 +1,111 @@
+
+#include "xintc.h"
+#include "sysace_stdio.h"
+#include "fsl.h"
+#include "xparameters.h"
+#include "string.h"
+#include "platform.h"
+
+#define PATH	"a:\\gene"
+#define FILE1	"seql1.txt"
+#define FILE2	"seql2.txt"
+#define DDR2	XPAR_DDR2_SDRAM_MPMC_BASEADDR
+
+typedef struct result
+{
+	short fill;
+	short score;
+	short phase;
+	short index;
+} RESULT;
+
+XIntc intc;
+int * iptr3 = 0;
+int tmp = 0;
+int items = 0;
+
+void bsw_0_has_data_handler()
+{
+
+}
+
+int main()
+{
+	SYSACE_FILE * fp;
+	int * iptr, * iptr1, * iptr2;
+	char * cptr;
+	int i, j;
+	int len1, len2;
+
+
+
+    init_platform();
+
+    print("\n\r************"); xil_printf("%s %s", __DATE__, __TIME__); print("************\n\r");
+
+    microblaze_disable_interrupts();
+
+    if(XIntc_Initialize(&intc, XPAR_INTC_0_DEVICE_ID) != XST_SUCCESS) return XST_FAILURE;
+    if(XIntc_Connect(&intc, 0, (XInterruptHandler)bsw_0_has_data_handler, NULL) != XST_SUCCESS) return XST_FAILURE;
+    if(XIntc_Start(&intc, XIN_REAL_MODE) != XST_SUCCESS) return XST_FAILURE;
+    XIntc_Enable(&intc, XPAR_XPS_INTC_0_FSL_BSW_0_TO_MICROBLAZE_0_FSL_HAS_DATA_INTR);
+
+    cptr = PATH;
+    if(strlen(cptr) > 8) { print("DIR/FILE name too long \r\n"); return -1; }
+    if(sysace_chdir(cptr) != 0) { print("change DIR failed \r\n"); return -1; }
+
+    cptr = FILE1;
+    if(strlen(cptr) > 12) { print("DIR/FILE name too long \r\n"); return -1; }
+    if((fp = sysace_fopen(cptr, "r")) == NULL) { print("File open failed\r\n"); return -1; }
+
+    len1 = 0;
+    iptr1 = iptr= (int *)DDR2;
+    do
+    {
+    	tmp = sysace_fread(iptr, 1, 10240, fp);
+    	iptr += 10240 / 4;
+    	len1 += tmp;
+    } while(tmp == 10240);
+
+    cptr = (char *) iptr1;
+    for(i=0; i<40; i++) cptr[len1+i] = '\n';
+
+    xil_printf("Len1: %d \r\n", len1);
+    sysace_fclose(fp);
+
+    cptr = FILE2;
+    if(strlen(cptr) > 12) { print("DIR/FILE name too long \r\n"); return -1; }
+    if((fp = sysace_fopen(cptr, "r")) == NULL) { print("File open failed\r\n"); return -1; }
+
+    len2 = 0;
+    iptr2 = iptr= iptr + 10;
+    do
+    {
+    	tmp = sysace_fread(iptr, 1, 10240, fp);
+    	iptr += 10240 / 4;
+    	len2 += tmp;
+    } while(tmp == 10240);
+
+    cptr = (char *) iptr2;
+    for(i=0; i<40; i++) cptr[len1+i] = '\n';
+
+    xil_printf("Len2: %d \r\n", len2);
+    sysace_fclose(fp);
+
+    iptr3 = iptr = iptr + 10;
+    tmp = 0;
+    microblaze_enable_interrupts();
+
+    i = j = 0;
+    while(i<len1 || j<len2)
+    {
+    	if(i < len1) { putfsl_interruptible(iptr1[i], 0); i += 4; }
+    	if(j < len2) { putfsl_interruptible(iptr2[j], 1); j += 4; }
+    }
+
+
+    print("\n\r************ END ************\n\r");
+    cleanup_platform();
+
+    return 0;
+}
